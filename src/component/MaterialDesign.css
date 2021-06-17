@@ -1,0 +1,40 @@
+.container{
+margin: 150px;
+}
+ 
+  .group1{
+    position: relative;
+  }
+  .group1 input{
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    width: 300px;
+    border: none;
+    background-color: gainsboro;
+    
+  }
+  .group1 label{
+    color:gray;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    left: 5px;
+    top:10px;
+    transition: .2s ease all;
+  }
+  .group1 input:focus{
+    outline:none;
+    background-color: gainsboro;
+    border-bottom: 1px solid blueviolet;
+  }
+  .group1 input:valid~ label{
+    top:-13px;
+    color:#5264AE;
+    font-size: 14px;
+  }
+  
+  
+ 
+  
+
+  
