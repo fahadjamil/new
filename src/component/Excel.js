@@ -77,7 +77,7 @@ const Excel = () => {
                   
                 </tr>
               ))}</tbody>
-              <button className="btn btn-primary" onClick={divider}>slots</button>
+              <button className="btn btn-primary" onClick={divider}>slot</button>
     </div>
   );
 };
